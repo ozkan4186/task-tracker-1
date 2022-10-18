@@ -26,7 +26,7 @@ const AddTask = ({addTask}) => {
         <input type="date" id='dayTime' onChange={(e)=>setDay(e.target.value)} value={day} placeholder='Add Day & Time'/>
 <br />
 <br />
-        <input type="submit" value="saveTask"  />
+        <input type="submit" value="saveTask" />
 </form>
     
   )

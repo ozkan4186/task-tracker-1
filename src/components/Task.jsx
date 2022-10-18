@@ -11,15 +11,9 @@ const Task = ({item}) => {
   return (
     <div>
       <div onClick={()=>setClick(!click)} >
-        {click ?    (<div className="def">
-            <h2 style={{textDecoration:`${click}`}} >
-              {item.text }</h2>
-             <p> { item.day}</p>
-              </div>): ( <div>
-                  {item.text }</h2>
-<p> { item.day}</p> 
-              </div> 
-                      )  
+        {click ? (<div> <h2 style={{textDecoration:"line-through"}} > {item.text }</h2>
+             <p>{ item.day}</p> </div>): (<div> <h2>{item.text }</h2>
+                 <p>{ item.day}</p> </div>)  
                                
                         
                         
