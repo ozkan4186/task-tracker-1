@@ -14,7 +14,7 @@
   font-size: 1.2rem;
 }
 #root{
-  background-color: blue;
+  background-color: rgb(103, 103, 148);
   width: 500px;
   margin: 3rem auto;
   border-radius: 20px;
@@ -22,11 +22,11 @@
   
 }
 body{
-  background-color: #F25260;
+  background-color: #855f62;
 }
 .header{
   font-size: 2rem;
-  color: red;
+  color: rgb(51, 6, 6);
   margin-bottom: 1rem;
 }
 button{

@@ -8,7 +8,7 @@ function App() {
     const [showAddTask, setShowAddTask] = useState(true)
 
     const [tasks, setTasks] = useState([{
-      text:"homework",
+      text:"HOMEWORK",
       day: "1.1.2023 ",
       id:1,
       isdone:false
@@ -26,6 +26,9 @@ function App() {
       <Header showAddTask={showAddTask} setShowAddTask={setShowAddTask}/>
       {showAddTask && <AddTask addTask={addTask} />}
       <Tasks tasks={tasks} />
+     
+
+     
     
     </div>
   );
